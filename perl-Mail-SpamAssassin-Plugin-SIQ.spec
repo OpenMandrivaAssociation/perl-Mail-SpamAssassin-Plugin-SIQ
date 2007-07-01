@@ -72,5 +72,3 @@ fi
 %attr(0644,root,root) %config(noreplace) %{_sysconfdir}/mail/spamassassin/SIQ.cf
 %{perl_vendorlib}/Mail/SpamAssassin/Plugin/SIQ.pm
 %{_mandir}/man3/Mail::SpamAssassin::Plugin::SIQ.3pm*
-
-
