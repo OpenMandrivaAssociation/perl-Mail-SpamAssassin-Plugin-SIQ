@@ -72,3 +72,43 @@ fi
 %attr(0644,root,root) %config(noreplace) %{_sysconfdir}/mail/spamassassin/SIQ.cf
 %{perl_vendorlib}/Mail/SpamAssassin/Plugin/SIQ.pm
 %{_mandir}/man3/Mail::SpamAssassin::Plugin::SIQ.3pm*
+
+
+%changelog
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 0-7mdv2010.0
++ Revision: 430495
+- rebuild
+
+* Thu Jul 31 2008 Thierry Vignaud <tv@mandriva.org> 0-6mdv2009.0
++ Revision: 257748
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 0-5mdv2009.0
++ Revision: 245819
+- rebuild
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 0-3mdv2008.1
++ Revision: 140691
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Sun Jul 01 2007 Oden Eriksson <oeriksson@mandriva.com> 0-3mdv2008.0
++ Revision: 46365
+- misc fixes
+
+
+* Sun Dec 17 2006 Oden Eriksson <oeriksson@mandriva.com> 0-3mdv2007.0
++ Revision: 98303
+- bunzip the sources
+- make it backportable (drop the patch)
+
+* Sat Nov 25 2006 Emmanuel Andry <eandry@mandriva.org> 0-2mdv2007.1
++ Revision: 87292
+- patch to fix perl module path
+- Import perl-Mail-SpamAssassin-Plugin-SIQ
+
+* Fri May 19 2006 Oden Eriksson <oeriksson@mandriva.com> 0-1mdk
+- initial Mandriva package
+
