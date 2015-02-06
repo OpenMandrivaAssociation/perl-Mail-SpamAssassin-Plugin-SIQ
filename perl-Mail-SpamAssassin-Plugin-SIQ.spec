@@ -1,7 +1,7 @@
 Summary:	The SIQ plugin for SpamAssassin
 Name:		perl-Mail-SpamAssassin-Plugin-SIQ
 Version:	0
-Release:	8
+Release:	9
 License:	Apache License
 Group:		Development/Perl
 URL:		http://people.apache.org/~dos/sa-plugins/3.1/
